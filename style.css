@@ -1,0 +1,864 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif, Georgia;
+}
+
+body {
+
+    /* background: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%); */
+
+    /* background: linear-gradient(to right, black, white); */
+    background: linear-gradient(to bottom, black, white);
+    /* background: linear-gradient(to bottom right, black, white); */
+
+
+}
+
+
+/* The styling of the mother div in the header */
+
+header .motherdiv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+}
+
+.motherdiv .left {
+    display: block;
+    width: 100%;
+    margin: auto 20;
+    text-align: center;
+
+}
+
+.left h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-family: Poppins;
+    line-height: 60px;
+}
+
+.left p {
+    color: silver;
+    font-size: 2rex;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+
+
+/* This is the beginning of my main styling */
+
+main section.youtube {
+    padding: 30px;
+    text-align: center;
+
+}
+
+main .youtube .motherdiv {
+    display: block;
+    padding-bottom: 70px;
+    text-align: center;
+
+
+}
+
+.youtube .motherdiv .floatingdiv {
+    margin: auto auto;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    animation: floating 3s ease-in-out infinite;
+    display: block;
+    position: relative;
+
+
+
+
+
+    i {
+        color: #ff0000;
+        font-size: 4rem;
+    }
+}
+
+.floatingdiv a {
+    text-decoration: none;
+}
+
+
+
+
+
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* The styling of my get it now button */
+
+.floatingdiv p {
+    padding-top: 60px;
+    display: block;
+    justify-content: center;
+}
+
+
+
+.btn-grad {
+    background: linear-gradient(to right, black, white);
+
+    margin: 10px;
+    padding: 30px 5px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #000;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    /* display: block; */
+    font-size: 2rem;
+
+
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+.youtube .motherdiv .video {
+    margin: auto auto;
+    width: 100%;
+
+
+    iframe {
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+}
+
+/* The testimonial section */
+
+
+div.testimonial .text {
+    text-align: center;
+    margin: auto auto;
+}
+
+div.testimonial .text h1 {
+    font-size: 3rem;
+
+    u {
+        color: yellow;
+    }
+
+}
+
+/* The styling of my testimonial slides */
+
+
+.testimonial-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    height: auto;
+}
+
+.testimonial-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 0 0 10px;
+}
+
+.testimonial-card h4 {
+    font-weight: 600;
+    color: #333;
+}
+
+
+/* This is the styling of the section that contains social proof */
+
+section.socialproof {
+    width: 100%;
+    /* height: 400px; */
+    /* background-color: skyblue; */
+    /* background: linear-gradient(to right, black, white); */
+
+    text-align: center;
+    margin: auto auto;
+    border-top-left-radius: 40px;
+    /* border-top-right-radius: 40px; */
+    border-bottom-right-radius: 100px;
+    padding: 50px;
+
+}
+
+.socialproof .box {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin: auto auto;
+}
+
+.box .joincommunity {
+
+    margin-right: 50px;
+
+
+
+    a {
+        text-decoration: none;
+    }
+
+    .btn-grad {
+
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+        padding: 25px 55px;
+    }
+
+    .btn-grad:hover {
+        color: #000;
+    }
+
+    p {
+        color: #fff;
+        font-weight: 580;
+    }
+}
+
+.box .businesses {
+    color: #fff;
+    font-size: 1.5rex;
+}
+
+.businesses img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+/* This is the styling of the last section */
+
+.lastsec {
+    padding: 50px;
+}
+
+.lastsec .containerdiv {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #fff;
+}
+
+.containerdiv .left {
+    display: flex;
+
+
+}
+
+.two h3 {
+    font-size: 2rem;
+}
+
+.left .one {
+    margin: auto auto;
+    /* padding-right: 5px; */
+}
+
+.left .one i {
+    font-size: 4rem;
+}
+
+.containerdiv .center {
+    display: flex;
+}
+
+.center .one {
+    margin: auto auto;
+    padding-right: 5px;
+}
+
+.center .one i {
+    font-size: 4rem;
+}
+
+.containerdiv .right {
+    display: flex;
+}
+
+.right .one {
+    margin: auto auto;
+    padding-right: 5px;
+}
+
+.right .one i {
+    font-size: 4rem;
+}
+
+
+
+/* The four boxes in my whzt's included fieldset section */
+
+.content .whatisincluded {
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.content legend {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.content .grid-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+
+    /* Responsive grid: adjusts columns based on available width */
+
+    grid-template-columns: repeat(2, 1fr);
+    /* Exactly 2 columns */
+
+}
+
+.content .box {
+    /* background-color: #4CAF50; */
+    color: black;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 1px solid #000;
+}
+
+.content .box:hover {
+    transform: translateY(-5px);
+}
+
+.content fieldset {
+    color: black;
+    border-radius: 10px;
+}
+
+.accessbutton {
+
+    text-align: center;
+    padding: 40px;
+
+
+
+    a {
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+
+
+        button {
+            width: 70%;
+            color: #fff;
+        }
+    }
+}
+
+/* This is the styling of _Split_Design_Showing_Before_and_After_Sharepoint_Risk_Register_Course */
+
+.splitscreen {
+    width: 100%;
+    text-align: center;
+}
+
+.splitscreen img {
+    width: 80%;
+    height: 500px;
+}
+
+
+/* This is they styling of my faq section */
+
+.faq-section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+
+
+.faq-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-question {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 1em 1.5em;
+    font-size: 1em;
+    font-weight: bold;
+    color: #2a2a2a;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+.faq-question::after {
+    content: "+";
+    position: absolute;
+    right: 20px;
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+}
+
+.faq-question.active::after {
+    content: "-";
+    transform: rotate(180deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.3s ease;
+    background-color: #f3f3f3;
+    font-size: 0.95em;
+    padding: 0 1.5em;
+}
+
+.faq-answer.open {
+    padding: 15px;
+    max-height: 300px;
+}
+
+
+/* The styling of my about me section */
+
+section.aboutme {
+    padding-top: 40px;
+
+
+}
+
+section.aboutme .motherdiv .img {
+    padding: 30px;
+    width: 30%;
+}
+
+.aboutme .motherdiv {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+}
+
+section.aboutme .motherdiv img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+section.aboutme .motherdiv .text {
+    width: 70%;
+    padding-left: 30px;
+
+
+    h1 {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    p {
+        /* font-weight: 500; */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        text-align: left;
+        padding-bottom: 20px;
+
+
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVENESS */
+
+@media (max-width: 760px) {
+    .faq-section {
+        padding: 15px;
+    }
+
+    .faq-question {
+        font-size: 1em;
+        padding: 1em;
+    }
+
+    .faq-question::after {
+        right: 15px;
+    }
+
+    .faq-answer {
+        font-size: 0.9em;
+        padding: 0 1em;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .faq-section {
+        border-radius: 0px;
+    }
+
+    .faq-question {
+        font-size: 0.95em;
+        padding: 0.9em 1em;
+    }
+
+    .faq-answer {
+        font-size: 0.85em;
+        padding: 0 1em;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* STYLING MY HEADER */
+
+
+    header .motherdiv .left div h1 {
+        font-size: 2rem;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .left p {
+        font-size: 1.5rex;
+        padding-top: 5px;
+    }
+
+    .youtube .motherdiv .video {
+        /* margin: auto auto; */
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+
+    main section.youtube {
+        padding: 0;
+        text-align: center;
+
+        .video iframe {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    main .youtube .motherdiv {
+        /* display: flex; */
+        padding-bottom: 0px;
+
+
+    }
+
+    section.socialproof {
+        padding: 20px;
+    }
+
+    .socialproof .box {
+        display: block;
+    }
+
+    .box .joincommunity {
+
+        margin-right: 0px;
+        /* padding-bottom: 20px; */
+
+
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn-grad {
+
+            color: #fff;
+            font-weight: 200;
+            font-size: 1rex;
+            padding: 10px 15px;
+        }
+
+        .btn-grad:hover {
+            color: #000;
+        }
+
+        p {
+            color: #fff;
+            font-weight: 200;
+        }
+    }
+
+    .box .businesses {
+        color: #fff;
+        font-size: 1rex;
+    }
+
+    .businesses img {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        margin-top: 0px;
+    }
+
+    .lastsec {
+        padding: 20px;
+    }
+
+    .lastsec .containerdiv {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        color: #fff;
+    }
+
+    .containerdiv .left {
+        display: flex;
+
+
+    }
+
+    .two h3 {
+        font-size: 1rex;
+        padding: 0;
+        line-height: 2px;
+
+
+    }
+
+    .two small {
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    .left .one {
+        margin: auto auto;
+        padding-right: 2px;
+        padding-left: 5px;
+
+    }
+
+    .left .one i {
+        font-size: 1.5rex;
+    }
+
+    .containerdiv .center {
+        display: flex;
+    }
+
+    .center .one {
+        /* margin: auto auto; */
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .center .one i {
+        font-size: 1.5rex;
+    }
+
+    .containerdiv .right {
+        display: flex;
+    }
+
+    .right .one {
+        /* margin: auto auto; */
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .right .one i {
+        font-size: 1.5rex;
+    }
+
+
+
+    .splitscreen img {
+        width: 80%;
+        height: 280px;
+    }
+
+    .btn-grad {
+        color: #fff;
+        font-weight: 500;
+        font-size: 1rex;
+        padding: 10px 10px;
+    }
+
+    div.testimonial .text h1 {
+        font-size: 2.5rex;
+        line-height: 30px;
+
+        u {
+            color: yellow;
+        }
+
+
+
+    }
+
+
+    .testimonial-section {
+
+        padding: 30px 0;
+
+    }
+
+
+    .content legend {
+        font-size: 10px;
+        color: black;
+        text-align: center;
+        font-weight: 600;
+
+    }
+
+    .content .grid-container {
+        display: grid;
+        gap: 20px;
+        padding: 15px;
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+    section.aboutme {
+        padding: 0;
+    }
+
+    section.aboutme .motherdiv .img {
+        padding: 20px;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .aboutme .motherdiv {
+        display: block;
+        
+    }
+
+    section.aboutme .motherdiv .text {
+    width: 100%;
+    padding: 10px;
+
+    h1 {
+        font-size: 2rex;
+        text-align: center;
+    }
+
+    p {
+        /* font-weight: 500; */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rex;
+        text-align: left;
+        padding-bottom: 20px;
+
+
+
+    }
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+

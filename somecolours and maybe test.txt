@@ -1,0 +1,173 @@
+Gradient button with his colour
+
+
+
+         .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+
+A floating animationnn
+
+.floating{
+     animation: floating 5s ease-in-out 0s infinite;
+}
+
+@keyframes floating{
+
+ 0%{
+	transform: translateY(0px);
+}
+50%{
+    transform: translateY(-15px);
+}
+100%{
+	transform: translateY(0px);
+}
+
+}
+
+
+
+
+
+FIRST HTML
+
+<div class="motherdiv">
+
+            <div class="leftdiv">
+
+                <h5 class="floating-text"> Helpful. </h5>
+                <h4 class="floating-text"> Conversational. </h4>
+                <h3 class="floating-text"> Professional. </h3>
+                <h2 class="floating-text"> Relatable. </h2>
+                <h1 class="floating-text"> Friendly. </h1>
+
+
+
+                
+
+
+
+
+            </div>
+
+            <div class="rightdiv">
+
+                <img src="./assets/_A7R0133.jpg" alt="">
+
+            </div>
+        </div>
+
+
+
+CSS OF HTML
+
+
+
+
+/* This is the styling of my header */
+
+header {
+    width: 100%;
+
+
+    /* The motherdiv in my header */
+
+    .motherdiv {
+
+        
+        display: flex;
+        width: 100%;
+
+
+
+
+
+
+        .leftdiv {
+            width: 50%;
+            display: block;
+            /* align-items: center; */
+            text-align: center;
+            font-size: 4rem;
+            color: #fff;
+            margin: auto 0;
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5:hover {
+                cursor: pointer;
+                margin-bottom: 20px;
+
+
+            }
+
+            h5 {
+                margin-bottom: 20px;
+            }
+
+
+
+
+        }
+
+        .rightdiv {
+            width: 50%;
+
+            img {
+                width: 100%;
+                height: 600px;
+                clip-path: circle(400px at center center);
+                box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+            }
+
+        }
+
+
+    }
+
+
+}
+
+div .floating-text {
+    
+}
+
+/* This is the beginning of the styling of the main section */
+
+/* This is the styling of the section that contains the video at the center */ 
+
+ main.firstsec{
+
+    width: 100%;
+
+
+    
+
+
+ }
+
+ .step2 iframe{
+        width: 560;
+    }
+
