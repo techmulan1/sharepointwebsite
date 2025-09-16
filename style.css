@@ -610,8 +610,8 @@ section.aboutme .motherdiv .text {
         padding: 5px;
         align-items: center;
         display: flex;
-  
-        
+
+
     }
 
     main section.youtube {
@@ -625,12 +625,12 @@ section.aboutme .motherdiv .text {
             padding: 0px;
             /* margin: 20px; */
 
-            
-            
+
+
         }
     }
 
-   
+
 
     section.socialproof {
         padding: 20px;
@@ -654,9 +654,9 @@ section.aboutme .motherdiv .text {
         .btn-grad {
 
             color: #fff;
-            font-weight: 200;
-            font-size: 1rex;
-            padding: 20px 35px;
+            font-weight: 600;
+            font-size: 2rex;
+            padding: 20px 75px;
         }
 
         .btn-grad:hover {
@@ -666,7 +666,7 @@ section.aboutme .motherdiv .text {
         p {
             color: #fff;
             font-weight: 500;
-            font-size: 2rem;
+            font-size: 1.5rem;
             line-height: 39px;
         }
     }
@@ -683,10 +683,10 @@ section.aboutme .motherdiv .text {
         margin-top: 0px;
     }
 
-    .businesses p{
+    .businesses p {
         font-weight: 500;
-            font-size: 1.5rex;
-            /* line-height: 39px; */
+        font-size: 1.5rex;
+        /* line-height: 39px; */
 
     }
 
@@ -810,6 +810,18 @@ section.aboutme .motherdiv .text {
 
     }
 
+    .accessbutton .btn-grad {
+
+        color: #fff;
+        font-weight: 600;
+        font-size: 2rex;
+        padding: 20px 75px;
+    }
+
+    .btn-grad:hover {
+        color: #000;
+    }
+
 
     section.aboutme {
         padding: 0;
@@ -823,40 +835,69 @@ section.aboutme .motherdiv .text {
 
     .aboutme .motherdiv {
         display: block;
-        
+
     }
 
     section.aboutme .motherdiv .text {
-    width: 100%;
-    padding: 10px;
+        width: 100%;
+        padding: 10px;
 
-    h1 {
+        h1 {
+            font-size: 2rex;
+            text-align: center;
+        }
+
+        p {
+            /* font-weight: 500; */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1.5rex;
+            text-align: left;
+            padding-bottom: 20px;
+
+
+
+        }
+
+    }
+
+
+
+
+
+}
+
+@media (max-width: 400px) {
+    .accessbutton .btn-grad {
+
+        color: #fff;
+        font-weight: 600;
         font-size: 2rex;
-        text-align: center;
+        padding: 20px 15px;
     }
-
-    p {
-        /* font-weight: 500; */
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 1.5rex;
-        text-align: left;
-        padding-bottom: 20px;
-
-
-
-    }
-
 }
 
+@media (width: 820px) {
+    
+    .businesses{
+        display: none;
+    }
 
+    .box{
+        display: flex;
+        justify-content: center;
+    }
 
+    .lastsec .left, .center, .right{
+        margin-right: 10px;
 
+        h3{
+            font-size: 25px;
+        }
 
+        i{
+            font-size: 30px;
+        }
+    }
+
+    
 }
-
-
-
-
-
-
-
