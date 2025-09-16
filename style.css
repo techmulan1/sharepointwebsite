@@ -585,7 +585,12 @@ section.aboutme .motherdiv .text {
     }
 }
 
-@media (max-width: 392px) {
+@media (max-width:852) {
+    header{display: none;
+    }
+}
+
+@media (max-width: 499px) {
 
     .faq-section {
         border-radius: 0px;
