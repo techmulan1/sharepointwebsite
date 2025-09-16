@@ -565,32 +565,9 @@ section.aboutme .motherdiv .text {
 
 /* RESPONSIVENESS */
 
-@media (max-width: 760px) {
-    .faq-section {
-        padding: 15px;
-    }
 
-    .faq-question {
-        font-size: 1em;
-        padding: 1em;
-    }
 
-    .faq-question::after {
-        right: 15px;
-    }
-
-    .faq-answer {
-        font-size: 0.9em;
-        padding: 0 1em;
-    }
-}
-
-@media (max-width:852) {
-    header{display: none;
-    }
-}
-
-@media (max-width: 499px) {
+@media (max-width: 768px) {
 
     .faq-section {
         border-radius: 0px;
@@ -679,7 +656,7 @@ section.aboutme .motherdiv .text {
             color: #fff;
             font-weight: 200;
             font-size: 1rex;
-            padding: 10px 15px;
+            padding: 20px 35px;
         }
 
         .btn-grad:hover {
@@ -688,7 +665,9 @@ section.aboutme .motherdiv .text {
 
         p {
             color: #fff;
-            font-weight: 200;
+            font-weight: 500;
+            font-size: 2rem;
+            line-height: 39px;
         }
     }
 
@@ -699,9 +678,16 @@ section.aboutme .motherdiv .text {
 
     .businesses img {
         border-radius: 50%;
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
         margin-top: 0px;
+    }
+
+    .businesses p{
+        font-weight: 500;
+            font-size: 1.5rex;
+            /* line-height: 39px; */
+
     }
 
     .lastsec {
@@ -722,9 +708,9 @@ section.aboutme .motherdiv .text {
     }
 
     .two h3 {
-        font-size: 1rex;
+        font-size: 1.5rex;
         padding: 0;
-        line-height: 2px;
+        line-height: 3px;
 
 
     }
