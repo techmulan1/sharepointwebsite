@@ -418,8 +418,8 @@ section.socialproof {
 }
 
 .splitscreen img {
-    width: 80%;
-    height: 500px;
+    width: 70%;
+    /* height: 500px; */
 }
 
 
@@ -762,8 +762,8 @@ section.aboutme .motherdiv .text {
 
 
     .splitscreen img {
-        width: 80%;
-        height: 280px;
+        width: 100%;
+        /* height: 280px; */
     }
 
     .btn-grad {
