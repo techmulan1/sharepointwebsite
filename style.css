@@ -619,11 +619,11 @@ section.aboutme .motherdiv .text {
         text-align: center;
 
         .video iframe {
-            text-align: center;
+            /* text-align: center; */
             width: 100%;
             height: 400px;
             padding: 0px;
-            /* margin: 20px; */
+            margin: 10px;
 
 
 
