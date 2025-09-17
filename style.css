@@ -674,6 +674,7 @@ section.aboutme .motherdiv .text {
     .box .businesses {
         color: #fff;
         font-size: 1rex;
+        padding-top: 40px;
     }
 
     .businesses img {
