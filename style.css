@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+
 * {
     padding: 0;
     margin: 0;
@@ -286,6 +288,10 @@ section.socialproof {
 
 .lastsec {
     padding: 50px;
+    background-color: black;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 40px;
 }
 
 .lastsec .containerdiv {
@@ -351,7 +357,7 @@ section.socialproof {
 }
 
 .content legend {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: black;
     text-align: center;
     font-weight: 700;
@@ -379,6 +385,11 @@ section.socialproof {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     border: 1px solid #000;
+
+    h3 {
+        font-size: 25px;
+
+    }
 }
 
 .content .box:hover {
@@ -410,16 +421,44 @@ section.socialproof {
     }
 }
 
+/* The styling of guarantee section */
+
+section.guarantee .containerrr {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+
+    .one-g {
+        margin: auto auto;
+    }
+
+
+    .two-g {
+        /* padding: 30px; */
+        margin: auto auto;
+        max-width: 800px;
+
+        h1 {
+            font-size: 3rem;
+            padding-bottom: 30px;
+            font-weight: 500;
+        }
+    }
+}
+
 /* This is the styling of _Split_Design_Showing_Before_and_After_Sharepoint_Risk_Register_Course */
 
 .splitscreen {
     width: 100%;
     text-align: center;
+
 }
 
 .splitscreen img {
     width: 70%;
     /* height: 500px; */
+
 }
 
 
@@ -530,15 +569,96 @@ section.aboutme .motherdiv .text {
 
     p {
         /* font-weight: 500; */
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
         font-size: 1.5rem;
         text-align: left;
         padding-bottom: 20px;
+        padding-right: 40px;
 
 
 
     }
 
+
+}
+
+
+/* This is the last section with social media connections */
+
+section.socialmedia {
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+
+    .whole {
+        width: 50%;
+    }
+
+    .icons {
+        width: 50%;
+        text-align: center;
+        margin: auto auto;
+
+
+        a {
+            margin-right: 10px;
+            text-decoration: none;
+            font-size: 30px;
+            color: #fff;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: yellow;
+        }
+
+        small {
+            color: grey;
+            padding-top: 40px;
+
+
+            a {
+                font-size: 13px;
+                color: grey;
+            }
+        }
+
+
+    }
+
+    .center {
+        h1 {
+            font-size: 40px;
+            margin-bottom: -10px;
+            color: #fff;
+
+
+        }
+
+        span {
+            color: yellow;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+
+    .text1 {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .text {
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        color: #fff;
+        max-width: 500px;
+    }
 
 }
 
@@ -861,6 +981,35 @@ section.aboutme .motherdiv .text {
 
     }
 
+    section.guarantee {
+        display: none;
+    }
+
+
+    section.socialmedia {
+        display: block;
+
+
+        .whole {
+            width: 100%;
+        }
+
+        .icons {
+            width: 100%;
+            text-align: center;
+            margin: auto auto;
+
+            a {
+                margin-right: 10px;
+                text-decoration: none;
+                font-size: 25px;
+                margin-bottom: 50px;
+            }
+
+
+        }
+    }
+
 
 
 
@@ -878,27 +1027,29 @@ section.aboutme .motherdiv .text {
 }
 
 @media (width: 820px) {
-    
-    .businesses{
+
+    .businesses {
         display: none;
     }
 
-    .box{
+    .box {
         display: flex;
         justify-content: center;
     }
 
-    .lastsec .left, .center, .right{
+    .lastsec .left,
+    .center,
+    .right {
         margin-right: 10px;
 
-        h3{
+        h3 {
             font-size: 25px;
         }
 
-        i{
+        i {
             font-size: 30px;
         }
     }
 
-    
+
 }
